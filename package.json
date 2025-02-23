@@ -1,6 +1,6 @@
 {
   "name": "ayame-web-sdk-samples",
-  "version": "2025.1.0-canary.0",
+  "version": "2025.1.1",
   "description": "ayame-web-sdk-samples",
   "type": "module",
   "scripts": {
@@ -18,17 +18,17 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/OpenAyame/ayame-web-sdk-samples#readme",
   "dependencies": {
-    "@open-ayame/ayame-web-sdk": "2025.1.0-canary.2"
+    "@open-ayame/ayame-web-sdk": "2025.1.1"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@playwright/test": "1.50.1",
-    "@types/node": "22.13.4",
+    "@types/node": "22.13.5",
     "@types/webrtc": "0.0.44",
     "typescript": "5.7.3",
-    "vite": "6.1.0"
+    "vite": "6.1.1"
   },
-  "packageManager": "pnpm@9.15.5",
+  "packageManager": "pnpm@10.4.1",
   "engines": {
     "node": ">=20.18"
   }
