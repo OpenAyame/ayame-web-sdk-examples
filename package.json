@@ -1,6 +1,6 @@
 {
   "name": "ayame-web-sdk-samples",
-  "version": "2025.1.1",
+  "private": true,
   "description": "ayame-web-sdk-samples",
   "type": "module",
   "scripts": {
