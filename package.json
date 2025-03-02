@@ -23,12 +23,12 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@playwright/test": "1.50.1",
-    "@types/node": "22.13.5",
-    "@types/webrtc": "0.0.44",
-    "typescript": "5.7.3",
-    "vite": "6.1.1"
+    "@types/node": "22.13.8",
+    "@types/webrtc": "0.0.45",
+    "typescript": "5.8.2",
+    "vite": "6.2.0"
   },
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.2",
   "engines": {
     "node": ">=20.18"
   }
