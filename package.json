@@ -26,7 +26,7 @@
     "@types/node": "22.13.11",
     "@types/webrtc": "0.0.45",
     "typescript": "5.8.2",
-    "vite": "6.2.2"
+    "vite": "6.2.3"
   },
   "packageManager": "pnpm@10.6.5",
   "engines": {
