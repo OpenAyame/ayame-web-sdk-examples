@@ -21,7 +21,7 @@
     "@open-ayame/ayame-web-sdk": "2025.1.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.2.0",
     "@playwright/test": "1.54.2",
     "@types/node": "22.17.1",
     "@types/webrtc": "0.0.46",
