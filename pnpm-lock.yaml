@@ -19,8 +19,8 @@ importers:
         specifier: 1.56.1
         version: 1.56.1
       '@types/node':
-        specifier: 22.18.11
-        version: 22.18.11
+        specifier: 22.18.13
+        version: 22.18.13
       '@types/webrtc':
         specifier: 0.0.47
         version: 0.0.47
@@ -29,7 +29,7 @@ importers:
         version: 5.9.3
       vite:
         specifier: 6.4.1
-        version: 6.4.1(@types/node@22.18.11)
+        version: 6.4.1(@types/node@22.18.13)
 
 packages:
 
@@ -348,8 +348,8 @@ packages:
   '@types/estree@1.0.7':
     resolution: {integrity: sha512-w28IoSUCJpidD/TGviZwwMJckNESJZXFu7NBZ5YJ4mEUnNraUn9Pm8HSZm/jDF1pDWYKspWE7oVphigUPRakIQ==}
 
-  '@types/node@22.18.11':
-    resolution: {integrity: sha512-Gd33J2XIrXurb+eT2ktze3rJAfAp9ZNjlBdh4SVgyrKEOADwCbdUDaK7QgJno8Ue4kcajscsKqu6n8OBG3hhCQ==}
+  '@types/node@22.18.13':
+    resolution: {integrity: sha512-Bo45YKIjnmFtv6I1TuC8AaHBbqXtIo+Om5fE4QiU1Tj8QR/qt+8O3BAtOimG5IFmwaWiPmB3Mv3jtYzBA4Us2A==}
 
   '@types/webrtc@0.0.47':
     resolution: {integrity: sha512-l4G2skp32Q7ENiocokNhIHG6dKfws9ALJ04zW+ZZ97LMe6G+yqs/E8qsJLZJELGcdUDgEWvi2jg7KSP5TpJxeg==}
@@ -644,7 +644,7 @@ snapshots:
 
   '@types/estree@1.0.7': {}
 
-  '@types/node@22.18.11':
+  '@types/node@22.18.13':
     dependencies:
       undici-types: 6.21.0
 
@@ -745,7 +745,7 @@ snapshots:
 
   undici-types@6.21.0: {}
 
-  vite@6.4.1(@types/node@22.18.11):
+  vite@6.4.1(@types/node@22.18.13):
     dependencies:
       esbuild: 0.25.0
       fdir: 6.4.4(picomatch@4.0.2)
@@ -754,5 +754,5 @@ snapshots:
       rollup: 4.40.0
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.18.11
+      '@types/node': 22.18.13
       fsevents: 2.3.3
