@@ -86,6 +86,7 @@ const SendRecv = () => {
       </div>
       <div class="mb-4 space-x-2">
         <button
+          id="connect"
           type="button"
           onClick={handleConnect}
           class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
@@ -93,6 +94,7 @@ const SendRecv = () => {
           Connect
         </button>
         <button
+          id="disconnect"
           type="button"
           onClick={handleDisconnect}
           class="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600"

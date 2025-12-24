@@ -7,6 +7,7 @@ const RoomSettings = () => {
         <label class="w-24 text-sm font-medium text-gray-700">Room ID</label>
         <span class="text-gray-500">{roomIdPrefix.value}</span>
         <input
+          id="room-name"
           type="text"
           value={roomName.value}
           onInput={(e) => {

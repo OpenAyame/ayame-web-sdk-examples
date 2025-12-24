@@ -12,6 +12,7 @@ const ConnectionState = () => {
 
   return (
     <span
+      id="connection-state"
       data-connection-state={ayameConnectionState.value}
       class={`font-medium ${stateColors[ayameConnectionState.value]}`}
     >

@@ -4,8 +4,8 @@ test("sendrecv x2", async ({ browser }) => {
   const sendrecv1 = await browser.newPage();
   const sendrecv2 = await browser.newPage();
 
-  await sendrecv1.goto("http://localhost:9000/sendrecv/");
-  await sendrecv2.goto("http://localhost:9000/sendrecv/");
+  await sendrecv1.goto("http://localhost:9000/sendrecv");
+  await sendrecv2.goto("http://localhost:9000/sendrecv");
 
   // channel-name を指定する
   const roomName = crypto.randomUUID();

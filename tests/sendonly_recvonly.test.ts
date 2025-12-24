@@ -4,8 +4,8 @@ test("sendonly recvonly", async ({ browser }) => {
   const sendonly = await browser.newPage();
   const recvonly = await browser.newPage();
 
-  await sendonly.goto("http://localhost:9000/sendonly/");
-  await recvonly.goto("http://localhost:9000/recvonly/");
+  await sendonly.goto("http://localhost:9000/sendonly");
+  await recvonly.goto("http://localhost:9000/recvonly");
 
   // channel-name を指定する
   const roomName = crypto.randomUUID();
