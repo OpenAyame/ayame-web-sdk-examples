@@ -8,7 +8,23 @@
 
 ## Ayame Web SDK サンプルについて
 
-このサンプルは最小限になっており、 `.env.local` に設定した環境変数のみを利用します。
+このサンプルは最小限になっており、 `.env` に設定した環境変数のみを利用します。
+
+## 利用技術
+
+- [TypeScript: JavaScript With Syntax For Types\.](https://www.typescriptlang.org/)
+- [Preact](https://preactjs.com/)
+  - [preactjs/preact](https://github.com/preactjs/preact)
+  - [preactjs/signals](https://github.com/preactjs/signals)
+  - [preactjs/preact\-iso](https://github.com/preactjs/preact-iso)
+  - [preactjs/preset\-vite](https://github.com/preactjs/preset-vite)
+- [Tailwind CSS \- Rapidly build modern websites without ever leaving your HTML\.](https://tailwindcss.com/)
+- [Vite \| Next Generation Frontend Tooling](https://vite.dev/)
+- [The JavaScript Oxidation Compiler](https://oxc.rs/)
+  - [oxfmt \- npm](https://www.npmjs.com/package/oxfmt)
+  - [oxlint \- npm](https://www.npmjs.com/package/oxlint)
+  - [oxlint\-tsgolint \- npm](https://www.npmjs.com/package/oxlint-tsgolint)
+- [Fast, disk space efficient package manager \| pnpm](https://pnpm.io/ja/)
 
 ## Ayame Labo を利用する
 
