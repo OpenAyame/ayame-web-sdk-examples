@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-24.04
     strategy:
       matrix:
-        node: ["20", "22"]
+        node: ["20", "22", "24"]
         # browser: ["chromium", "firefox", "webkit"]
         browser: ["chromium"]
     env:
@@ -32,7 +32,7 @@ jobs:
       - run: pnpm install
       - run: pnpm fmt
       # - run: pnpm lint
-      - run: pnpm check
+      - run: pnpm typecheck
       - run: pnpm exec playwright install ${{ matrix.browser }} --with-deps
       # workers 1 にしないと、テストが並列に実行されて失敗する
       - run: pnpm exec playwright test --project=${{ matrix.browser }}

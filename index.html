@@ -1,21 +1,12 @@
 <html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ayame Web SDK Examples</title>
+    <link rel="icon" href="data:," />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <title>Ayame Web SDK Examples</title>
-  <link rel="icon" href="data:,">
-</head>
-
-<body>
-  <header>
-    <h3>Ayame Web SDK Examples</h3>
-  </header>
-  <ul>
-    <li><a href="./sendrecv/">双方向送受信(sendrecv)</a></li>
-    <li><a href="./sendonly/">送信のみ(sendonly)</a></li>
-    <li><a href="./recvonly/">受信のみ(recvonly)</a></li>
-    <li><a href="./datachannel/">データチャネル(datachannel)</a></li>
-  </ul>
-</body>
-
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
 </html>

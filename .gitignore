@@ -13,3 +13,7 @@ dist/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+
+# Agents
+.claude/
+.codex/
