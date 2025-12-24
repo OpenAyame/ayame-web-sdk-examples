@@ -12,6 +12,7 @@
 
 ## 利用技術
 
+- [OpenAyame/ayame\-web\-sdk: Ayame Web SDK](https://github.com/OpenAyame/ayame-web-sdk)
 - [TypeScript: JavaScript With Syntax For Types\.](https://www.typescriptlang.org/)
 - [Preact](https://preactjs.com/)
   - [preactjs/preact](https://github.com/preactjs/preact)
