@@ -23,7 +23,7 @@ jobs:
       VITE_AYAME_ROOM_ID_PREFIX: ${{ secrets.TEST_ROOM_ID_PREFIX }}
       VITE_AYAME_SIGNALING_KEY: ${{ secrets.TEST_SIGNALING_KEY }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node }}
