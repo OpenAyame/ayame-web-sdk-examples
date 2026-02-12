@@ -24,7 +24,7 @@ jobs:
       VITE_AYAME_SIGNALING_KEY: ${{ secrets.TEST_SIGNALING_KEY }}
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node }}
       - uses: pnpm/action-setup@v4
