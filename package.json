@@ -21,18 +21,18 @@
   "dependencies": {
     "@open-ayame/ayame-web-sdk": "2025.1.1",
     "@preact/signals": "2.9.0",
-    "preact": "10.29.0",
+    "preact": "10.29.1",
     "preact-iso": "2.11.1"
   },
   "devDependencies": {
-    "@playwright/test": "1.58.2",
+    "@playwright/test": "1.59.1",
     "@preact/preset-vite": "2.10.5",
     "@tailwindcss/vite": "4.2.2",
-    "@types/node": "24.12.0",
+    "@types/node": "24.12.2",
     "@types/webrtc": "0.0.47",
-    "oxfmt": "0.42.0",
-    "oxlint": "1.57.0",
-    "oxlint-tsgolint": "0.18.1",
+    "oxfmt": "0.43.0",
+    "oxlint": "1.58.0",
+    "oxlint-tsgolint": "0.19.0",
     "tailwindcss": "4.2.2",
     "typescript": "5.9.3",
     "vite": "7.3.1"
